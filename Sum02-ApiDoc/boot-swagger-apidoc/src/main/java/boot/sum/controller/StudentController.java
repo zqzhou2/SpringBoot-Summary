@@ -1,6 +1,6 @@
-package boot.swagger.controller;
+package boot.sum.controller;
 
-import boot.swagger.model.Student;
+import boot.sum.model.Student;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
