@@ -1,4 +1,4 @@
-package boot.freemarker.controller;
+package boot.sum.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
