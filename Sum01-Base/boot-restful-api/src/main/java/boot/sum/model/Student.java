@@ -1,4 +1,4 @@
-package boot.rest.model;
+package boot.sum.model;
 
 /**
  * Created by zqzhou2 on 2017/6/7.

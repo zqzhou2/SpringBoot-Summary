@@ -1,9 +1,7 @@
-package boot.rest.controller;
+package boot.sum.controller;
 
-import boot.rest.model.Student;
+import boot.sum.model.Student;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 /**
  * Created by zqzhou2 on 2017/6/7.

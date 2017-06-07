@@ -1,15 +1,14 @@
-package boot.simple;
+package boot.sum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by zqzhou2 on 2017/6/6.
+ * Created by zqzhou2 on 2017/6/7.
  */
 @SpringBootApplication
-public class BootSimpleApplication {
-
+public class BootRestApiApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BootSimpleApplication.class, args);
+        SpringApplication.run(BootRestApiApplication.class, args);
     }
 }

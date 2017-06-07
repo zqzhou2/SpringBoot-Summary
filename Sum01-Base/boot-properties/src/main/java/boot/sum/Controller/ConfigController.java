@@ -1,9 +1,6 @@
-package boot.properties.Controller;
+package boot.sum.Controller;
 
-import boot.properties.model.BootProperties;
-import com.alibaba.fastjson.JSON;
-import jdk.nashorn.internal.ir.debug.JSONWriter;
-import jdk.nashorn.internal.parser.JSONParser;
+import boot.sum.model.BootProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
