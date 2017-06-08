@@ -28,7 +28,8 @@ public class StudentDaoImpl implements StudentDao {
 
     @Override
     public List<Student> find() {
-        return jdbcTemplate.queryForList("select * from student", Student.class);
+        RowMapper<Student> rm = new BeanPropertyRowMapper<Student>(Student.class);
+        return jdbcTemplate.query("select * from student", rm);
     }
 
     @Override

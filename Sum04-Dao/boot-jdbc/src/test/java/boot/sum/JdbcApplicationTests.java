@@ -19,7 +19,7 @@ import java.util.UUID;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class JdbcApplicationTests {
 
     @Autowired
     private StudentService studentService;
@@ -36,7 +36,5 @@ public class ApplicationTests {
 
         Student student1 = studentService.find(id);
         List<Student> studentList = studentService.find();
-
-        System.out.println(123);
     }
 }
