@@ -1,4 +1,4 @@
-package boot.sum.domain;
+package boot.sum.domain.teacher;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,11 +7,10 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * Created by zqzhou2 on 2017/6/8.
+ * Created by zqzhou2 on 2017/6/12.
  */
 @Entity
-public class Student {
-
+public class Teacher {
     @Id
     private String id;
 

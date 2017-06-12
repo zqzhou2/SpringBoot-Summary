@@ -1,4 +1,4 @@
-package boot.sum.domain;
+package boot.sum.domain.student;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
