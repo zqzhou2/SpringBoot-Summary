@@ -1,4 +1,4 @@
-package boot.sum.task;
+package boot.sum;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
